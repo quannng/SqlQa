@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#e3e7cc"
+    android:background="#ffffff"
     android:orientation="vertical"
 
-    tools:context=".MainActivity">
+    tools:context="com.example.quanganh.activity.MainActivity">
     <ImageView
         android:layout_marginTop="250dp"
         android:layout_width="wrap_content"
@@ -18,7 +18,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Student Managenment"
+        android:text="FPOLY MANAGER"
         android:textAlignment="center"
         android:layout_gravity="center"
         android:textSize="20dp"

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".AboutApp">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:card_view="http://schemas.android.com/apk/res-auto"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="2dp"
+          android:layout_marginStart="2dp"
+
+          card_view:cardElevation="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="*Giới thiệu"
+
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:baselineAligned="true"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+          <LinearLayout
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="8dp"
+              android:layout_weight="4.2"
+              android:orientation="vertical"
+              android:paddingStart="16dp"
+              tools:ignore="RtlSymmetry">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:paddingTop="8dp"
+                android:text="Tên phần mềm: "
+
+                android:textSize="17sp" />
+
+            <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="#eee" />-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:paddingTop="8dp"
+                android:text="Ngày tạo: "
+
+                android:textSize="17sp" />
+
+            <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="#eee" />-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:paddingTop="8dp"
+                android:text="Phiên bản: "
+
+                android:textSize="17sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:paddingTop="8dp"
+                android:text="Tác giả: "
+
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="24dp"
+                android:paddingTop="8dp"
+                android:text="Công ty: "
+
+                android:textSize="17sp" />
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="8dp"
+              android:layout_weight="5.8"
+              android:gravity="end"
+              android:orientation="vertical"
+              android:paddingEnd="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:ellipsize="end"
+                android:gravity="end"
+                android:maxLines="1"
+                android:paddingBottom="12dp"
+                android:paddingTop="8dp"
+                android:scrollHorizontally="true"
+                android:text="Quanr  Ly Nhan Vien"
+
+                android:textSize="17sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:gravity="end"
+                android:paddingBottom="12dp"
+                android:paddingTop="8dp"
+                android:text="10/7/2018"
+
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:gravity="end"
+                android:paddingBottom="12dp"
+                android:paddingTop="8dp"
+                android:text="v1.0.0"
+
+                android:textSize="17sp" />
+
+            <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="#eee" />-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:gravity="end"
+                android:paddingBottom="12dp"
+                android:paddingTop="8dp"
+                android:text="Super Team"
+
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:gravity="end"
+                android:paddingBottom="24dp"
+                android:paddingTop="8dp"
+                android:text="Fpoly cop "
+
+                android:textSize="17sp" />
+
+          </LinearLayout>
+        </LinearLayout>
+      </android.support.v7.widget.CardView>
+
+      <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:card_view="http://schemas.android.com/apk/res-auto"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="2dp"
+          android:layout_marginStart="2dp"
+          android:layout_marginTop="8dp"
+
+          card_view:cardElevation="2dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+          <ImageView
+              android:id="@+id/imgInstagram"
+              android:layout_width="32dp"
+              android:layout_height="32dp"
+              android:layout_marginBottom="16dp"
+              android:layout_marginTop="8dp"
+
+              card_view:layout_constraintBottom_toBottomOf="parent"
+              card_view:layout_constraintEnd_toEndOf="@+id/imageView2"
+              card_view:layout_constraintStart_toStartOf="@+id/imageView2"
+              card_view:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+          <ImageView
+              android:id="@+id/imgYoutube"
+              android:layout_width="32dp"
+              android:layout_height="32dp"
+              android:layout_marginBottom="16dp"
+              android:layout_marginTop="8dp"
+
+              card_view:layout_constraintBottom_toBottomOf="parent"
+              card_view:layout_constraintEnd_toEndOf="@+id/imgFacebook"
+              card_view:layout_constraintStart_toStartOf="@+id/imgFacebook"
+              card_view:layout_constraintTop_toBottomOf="@+id/imgFacebook"></ImageView>
+
+
+          <ImageView
+              android:id="@+id/imgFacebook"
+              android:layout_width="32dp"
+              android:layout_height="32dp"
+              android:layout_marginStart="16dp"
+
+              card_view:layout_constraintStart_toStartOf="parent"
+              card_view:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+          <TextView
+              android:id="@+id/textView17"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="8dp"
+              android:text="*Liên hệ"
+
+              android:textStyle="bold"
+              card_view:layout_constraintStart_toStartOf="parent"
+              card_view:layout_constraintTop_toTopOf="parent" />
+
+          <ImageView
+              android:id="@+id/imageView2"
+              android:layout_width="32dp"
+              android:layout_height="32dp"
+              android:layout_marginStart="8dp"
+              card_view:layout_constraintBottom_toBottomOf="@+id/imgFacebook"
+              card_view:layout_constraintStart_toStartOf="@+id/guideline4"
+              card_view:layout_constraintTop_toTopOf="@+id/imgFacebook"></ImageView>
+
+
+          <android.support.constraint.Guideline
+              android:id="@+id/guideline4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              card_view:layout_constraintGuide_percent="0.5" />
+
+          <TextView
+              android:id="@+id/textView19"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginStart="4dp"
+              android:text="Nhom 3"
+              android:textSize="16sp"
+              card_view:layout_constraintBottom_toBottomOf="@+id/imgFacebook"
+              card_view:layout_constraintStart_toEndOf="@+id/imgFacebook"
+              card_view:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+          <TextView
+              android:id="@+id/textView20"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_marginEnd="8dp"
+              android:layout_marginStart="4dp"
+              android:text="0988889999"
+              android:textSize="16sp"
+              card_view:layout_constraintBottom_toBottomOf="@+id/imageView2"
+              card_view:layout_constraintEnd_toEndOf="parent"
+              card_view:layout_constraintStart_toEndOf="@+id/imageView2"
+              card_view:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+          <TextView
+              android:id="@+id/textView21"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_marginStart="4dp"
+              android:text="nhom3@gmail.com"
+              android:textSize="16sp"
+              card_view:layout_constraintBottom_toBottomOf="@+id/imgYoutube"
+              card_view:layout_constraintEnd_toStartOf="@+id/imgInstagram"
+              card_view:layout_constraintStart_toEndOf="@+id/imgYoutube"
+              card_view:layout_constraintTop_toTopOf="@+id/imgYoutube" />
+
+          <TextView
+              android:id="@+id/textView22"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_marginStart="4dp"
+              android:ellipsize="end"
+              android:maxLines="1"
+              android:text="fb/nhom3"
+              android:textSize="16sp"
+              card_view:layout_constraintBottom_toBottomOf="@+id/imgInstagram"
+              card_view:layout_constraintEnd_toEndOf="parent"
+              card_view:layout_constraintStart_toEndOf="@+id/imgInstagram"
+              card_view:layout_constraintTop_toTopOf="@+id/imgInstagram" />
+        </android.support.constraint.ConstraintLayout>
+
+      </android.support.v7.widget.CardView>
+
+      <android.support.v7.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginBottom="16dp"
+          android:layout_marginEnd="2dp"
+          android:layout_marginStart="2dp"
+          android:layout_marginTop="8dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+          <Button
+              android:id="@+id/btnRatingBar"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+
+              android:text="Đánh giá" />
+
+        </android.support.constraint.ConstraintLayout>
+
+      </android.support.v7.widget.CardView>
+    </LinearLayout>
+  </ScrollView>
+
+</LinearLayout>
